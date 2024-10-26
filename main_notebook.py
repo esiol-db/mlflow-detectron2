@@ -208,4 +208,4 @@ os.environ['MLFLOW_EXPERIMENT_NAME'] = "your experiment name"
 # COMMAND ----------
 
 # MAGIC %sh
-# MAGIC export DATABRICKS_TOKEN && export DATABRICKS_HOST && export MLFLOW_EXPERIMENT_NAME && export MLFLOW_TRACKING_URI && /databricks/python/bin/python /Workspace/Users/ehsan.olfat@databricks.com/fine_tuning/Detectron/main_train.py   
+# MAGIC export DATABRICKS_TOKEN && export DATABRICKS_HOST && export MLFLOW_EXPERIMENT_NAME && export MLFLOW_TRACKING_URI && /databricks/python/bin/python /Workspace/Users/{user_email}/fine_tuning/Detectron/main_train.py   
