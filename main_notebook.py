@@ -40,7 +40,7 @@
 
 # COMMAND ----------
 
-# MAGIC %%writefile /Workspace/Users/ehsan.olfat@databricks.com/fine_tuning/Detectron/main_train.py
+# MAGIC %%writefile /Workspace/Users/{user_email}/fine_tuning/Detectron/main_train.py
 # MAGIC import os
 # MAGIC import detectron2
 # MAGIC from detectron2.engine import DefaultTrainer, default_argument_parser, launch
